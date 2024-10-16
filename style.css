@@ -1,0 +1,99 @@
+/*
+Theme Name: Kindergarten Los Angeles
+Theme URI: http://kindergartenlosangeles.com
+Author: TuNombre
+Description: Tema colorido y amigable para un kindergarten
+Version: 1.0
+*/
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fefae0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffcccb;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #add8e6;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #ffb6c1;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #000;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+footer {
+    background-color: #ffcccb;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services, .about-us {
+    background-color: #ffffe0;
+}
+
+h2 {
+    color: #ffcccb;
+}
+
+button {
+    background-color: #ffcccb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff9999;
+}
